@@ -1,0 +1,16 @@
+
+.boxed {
+    border: 1px solid rgb(0, 0, 0);
+    font-size: 25px;
+    margin-left: 80px;
+    margin-right: 1780px;
+    text-align: left;
+}
+
+.boxedDescrip {
+    border: 1px solid rgb(0, 0, 0);
+    font-size: 25px;
+    margin-left: 500px;
+    margin-right: 500px;
+    text-align: middle;
+}
