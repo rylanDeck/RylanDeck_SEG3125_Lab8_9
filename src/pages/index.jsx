@@ -15,9 +15,9 @@ const MainPage = () => {
     return (
         <div className = "backback">
             <br></br><br></br><br></br><br></br>
-            <h1 type="app-header">Welcome! To Art with you's Virtual Museum!</h1>
-            <br></br><br></br>
-            <button class="favorite styled" type="Exhibits" onClick={handleExhibits}>Explore Exhibits</button>
+            <h1 type="app-header">August 28, 2021</h1>
+            <br></br>
+            <h2>Gowganda ON </h2>
         </div>
     )
 }

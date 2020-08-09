@@ -27,6 +27,12 @@ export default class NavigationBar extends Component {
       <nav className="Nav">
         <div className="Nav__container">
 
+        <div className = "backback">
+            <br></br><br></br><br></br><br></br>
+            <h1 type="app-header">Welcome To Zach and Shawna's wedding!</h1>
+        </div>
+        <br></br><br></br><br></br><br></br>
+
           <div className="Nav__right">
             <ul className="Nav__item-wrapper" id="menu">
               <li className="Nav__item">
@@ -34,18 +40,23 @@ export default class NavigationBar extends Component {
               </li>
               &nbsp; &nbsp; &nbsp;
               <li className="Nav__item">
-                <Link className="Nav__link" to="/Exhibits">Explore</Link>
+                <Link className="Nav__link" to="/Exhibits">Our Story</Link>
               </li>
-              &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; 
-              &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; 
-              &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; 
-              &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;
-              &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; 
-              &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; 
-              &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; 
-              &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;
+              &nbsp; &nbsp; &nbsp;
               <li className="Nav__item">
-                <Link className="Nav__link" to="/fr">Language Switch (Fr/En)</Link>
+                <Link className="Nav__link" to="/Exhibits">Travel</Link>
+              </li>
+              &nbsp; &nbsp; &nbsp;
+              <li className="Nav__item">
+                <Link className="Nav__link" to="/Exhibits">Wedding Party</Link>
+              </li>
+              &nbsp; &nbsp; &nbsp;
+              <li className="Nav__item">
+                <Link className="Nav__link" to="/Exhibits">Photos</Link>
+              </li>
+              &nbsp; &nbsp; &nbsp;
+              <li className="Nav__item">
+                <Link className="Nav__link" to="/Exhibits">Registry</Link>
               </li>
             </ul>
           </div>
